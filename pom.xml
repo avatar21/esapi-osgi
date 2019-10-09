@@ -76,10 +76,12 @@
 							javax.crypto.*
 						</Import-Package>
 						<Bundle-ClassPath>.,{maven-dependencies}</Bundle-ClassPath>
-						<Embed-Dependency>*;scope=compile|runtime|provided;inline=false</Embed-Dependency>
+						<Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>
+						<Embed-Directory>target/dependency</Embed-Directory>
+						<!-- Embed-Dependency>*;scope=compile|runtime|provided;inline=false</Embed-Dependency>
 						<Embed-Directory>${lib.folder}</Embed-Directory>
 						<Embed-Transitive>true</Embed-Transitive>
-						<Embed-StripGroup>true</Embed-StripGroup>
+						<Embed-StripGroup>true</Embed-StripGroup -->
 						<_noee>true</_noee>
 					</instructions>
 				</configuration>
